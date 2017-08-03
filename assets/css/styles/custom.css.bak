@@ -1,0 +1,54 @@
+body{
+	font-family: Lato,sans-serif;
+	font-weight: 300;
+	scrollbar-face-color: #121212;
+}
+
+.body-login {
+	background:url('../../images/bg.jpg') no-repeat;
+	
+}
+
+::-moz-selection { 
+	background: #1c222b; 
+	color: #fff; 
+	text-shadow: none; 
+}
+
+::-webkit-selection { 
+	background: #1c222b; 
+	color: #fff; 
+	text-shadow: none; 
+}
+
+::selection { 
+	background: #1c222b; 
+	color: #fff; 
+	text-shadow: none; 
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+} 
+
+::-webkit-scrollbar-track {
+	background-color: #121212;
+} 
+
+::-webkit-scrollbar-thumb {
+	background-color: #18bc9c;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	    -ms-border-radius: 2px;
+		 -o-border-radius: 2px;
+			border-radius: 2px;
+} 
+
+::-webkit-scrollbar-button {
+	display: none;
+} 
+
+::-webkit-scrollbar-corner {
+	background-color: #000000;
+}
+

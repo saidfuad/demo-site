@@ -1,0 +1,40 @@
+/* 
+Template Name: DefOne - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.5
+Version: 1.4.0
+Author: DefThemes
+Website: http://www.defthemes.com/
+Contact: defthemes@gmail.com
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+*/
+
+.mail {
+	table {
+		margin-bottom: 0px;
+		tr {
+			&.mail-unread {
+				td { font-weight: bold; }
+			}
+			&.mail-highlight {
+				td { background-color: lighten(@warningColor, 35%); }
+			}
+		}
+		td {
+			border-top: none;
+			border-bottom: 1px solid #efefef;
+			padding: 10px 5px !important;
+			.fa-star {
+				color: #ddd;
+				font-size: 14px;
+				&.starred {
+					color: #e97436;
+				}
+			}
+			.btn-link {
+				color: #23bab5;
+			}
+		}
+		tr:last-child {
+			td { border: none; }
+		}
+	}	
+}

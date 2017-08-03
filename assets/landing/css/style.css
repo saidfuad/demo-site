@@ -1,0 +1,337 @@
+/*
+	Aerial 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+@import url("font-awesome.min.css");
+
+@font-face {
+    font-family: Galano;
+    src: url(GalanoRegular.otf) format("opentype");
+}
+
+/* Basic */
+
+	body, input, select, textarea {
+		color: white;
+		font-family: Galano;
+		font-size: 15pt;
+		font-weight: 300 !important;
+		letter-spacing: -0.025em;
+		line-height: 1.75em;
+	}
+
+    body.loading * {
+        -moz-animation: none !important;
+        -webkit-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+
+	a {
+		-moz-transition: border-color 0.2s ease-in-out;
+		-webkit-transition: border-color 0.2s ease-in-out;
+		-o-transition: border-color 0.2s ease-in-out;
+		-ms-transition: border-color 0.2s ease-in-out;
+		transition: border-color 0.2s ease-in-out;
+		border-bottom: dotted 1px;
+		color: inherit;
+		outline: 0;
+		text-decoration: none;
+	}
+
+		a:hover {
+			border-color: transparent;
+		}
+
+/* Wrapper */
+	@-moz-keyframes wrapper { 0% { opacity: 0; } 100% { opacity: 1; } }
+	@-webkit-keyframes wrapper { 0% { opacity: 0; } 100% { opacity: 1; } }
+	@-o-keyframes wrapper { 0% { opacity: 0; } 100% { opacity: 1; } }
+	@-ms-keyframes wrapper { 0% { opacity: 0; } 100% { opacity: 1; } }
+	@keyframes wrapper { 0% { opacity: 0; } 100% { opacity: 1; } }
+
+	#wrapper {
+		-moz-animation: wrapper 3s forwards;
+		-webkit-animation: wrapper 3s forwards;
+		-o-animation: wrapper 3s forwards;
+		-ms-animation: wrapper 3s forwards;
+		animation: wrapper 3s forwards;
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+/* BG */
+#bg {
+    background-image: url("images/bg.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+}
+
+/* Main */
+#main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -200px; 
+}
+
+/* Logo */
+.hawk_logo_login{
+    background-image: url(images/hawk_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 16px;
+    z-index: 1;  
+}
+
+.hawk_logo_create{
+    background-image: url(images/hawk_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 16px;
+    z-index: 1;  
+}
+
+#create-form{
+    top: 50%;
+    margin-top: -50px;
+    position: relative;
+}
+
+#username::-webkit-input-placeholder, #password::-webkit-input-placeholder, #password2::-webkit-input-placeholder,
+#first_name::-webkit-input-placeholder, #last_name::-webkit-input-placeholder,
+#company_email::-webkit-input-placeholder, #company_name::-webkit-input-placeholder, 
+#select_category::-webkit-input-placeholder, #company_phone_no::-webkit-input-placeholder,
+#email::-webkit-input-placeholder, #phone_no::-webkit-input-placeholder{
+    color: #fff;
+    letter-spacing: .05em;
+}
+
+#username::-moz-placeholder, #password::-moz-placeholder, #password2::-moz-placeholder,
+#first_name::-moz-placeholder, #last_name::-moz-placeholder,
+#company_email::-moz-placeholder, #company_name::-moz-placeholder, 
+#select_category::-moz-placeholder, #company_phone_no::-webkit-input-placeholder,
+#email::-moz-placeholder, #phone_no::-moz-placeholder{ /* Firefox 18- */
+    color: #fff;
+    letter-spacing: .05em;
+}
+
+#username::-ms-input-placeholder, #password::-ms-input-placeholder, #password2::-ms-input-placeholder,
+#first_name::-ms-input-placeholder, #last_name::-ms-input-placeholder,
+#company_email::-ms-input-placeholder, #company_name::-ms-input-placeholder, 
+#select_category::-ms-input-placeholder, #company_phone_no::-webkit-input-placeholder,
+#email::-ms-input-placeholder, #phone_no::-ms-input-placeholder{
+    color: #fff;
+    letter-spacing: .05em;  
+}
+
+.input-group{
+    width: 200px;
+}
+
+#username, #password, #company_password, #first_name, #last_name, #email, #phone_no, #company_email, #company_name, #company_phone_no{
+    width: 200px;
+    height: 40px;
+    background: rgba(255,255,255,.2);
+    border: 1px solid rgba(19, 27, 38, .55);
+    border-left: none;
+    color: #fff;
+    padding-left: 24px;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    padding-left: 48px;
+    /* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding.
+    via: http://cssdeck.com/labs/styling-select-box-with-css3 */
+    border: 1px solid #c1d72e;
+    border-radius: 3px;
+    position: relative;
+    width: 232px;
+    height: 40px;
+    border-right-width: 20px;
+    background-color: rgba(255,255,255,.2);
+    color: #fff;
+}
+
+select option{
+    background: rgba(19, 27, 38, 1);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select {
+    padding-right: 1em;
+  }
+}
+
+select:focus {
+  outline: none;
+  border-color: #c1d72e !important;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+}
+
+label span{
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    color: black
+}
+
+label:after {
+  display: block;
+  content: "▾";
+  font-size: 20px;
+  width: 20px;
+  position: absolute;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+  right: 0;
+  color: #fff;
+  pointer-events: none;
+}
+
+#spacer{
+    margin-top: 8px;
+}
+
+.input-group-addon{
+    background: rgba(255,255,255,.2);
+    border: 1px solid rgba(19, 27, 38, .55);
+    border-right: none;
+    color: #131b26;
+}
+
+.line{
+    position: absolute;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-top: -6px;
+}
+
+.btn-primary{
+    margin-top: 16px;
+    background: #c1d72e;
+    color: #131b26;
+    border-color: #c1d72e;
+    width: 236px;
+    height: 46px;
+    font-size: 16px;
+}
+
+.btn-primary:hover{
+    background: #c1d72e;
+    border: 1px solid #c1d72e;
+    color: #131b26;
+}
+
+.btn-primary span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-primary span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-primary:hover span {
+  padding-right: 25px;
+}
+
+.btn-primary:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.links{
+    width: 232px;
+}
+
+#forgotPass{
+    margin-top: 16px;
+    float: left;
+    text-align: left;
+}
+
+a:hover{
+    color: #c1d72e;
+}
+
+a:active{
+    color: #c1d72e;
+}
+
+#newUser{
+    margin-top: 16px;
+    float: right;
+    text-align: right;
+}
+
+#loginHere{
+	position: relative;
+	top: 16px;
+}
+
+select:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.0) inset, 0 0 8px rgba(126, 239, 104, 0);
+  outline: 0 none;
+}
+
+@media (max-width: 400px) {
+  .home-img {
+		width:100px !important;
+		height:100px !important;
+	}
+}

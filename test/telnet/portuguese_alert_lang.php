@@ -1,0 +1,84 @@
+<?php
+$lang['checkspeed']="checkspeed";
+$lang['cross the maximum speed limit'] = "Excedeu o limite de velocidade máxima";
+$lang['Speed'] = "velocidade";
+$lang['Click'] = "Clique";
+$lang['here'] = "aqui";
+$lang['to view on map'] = " para visualizar no mapa";
+$lang['Over Speed Alert'] = "Alerta de Excesso de Velocidade Máxima Permitida";
+$lang['Alert for'] = "O ativo";
+// area in out 
+$lang['Entered Area'] = " Entrou na Área  ";
+$lang['In Area Alert to User'] = "Alerta, ativo entrou na área programada";
+$lang['is now out of area'] = "agora está fora de área";
+$lang['Out of Area alert to User'] = "agora estÃ¡ fora de Ã¡rea";
+$lang['Area Out Alert'] = "Área Out Alerta";
+$lang['Area In Alert'] = "Área Em Alerta";
+// zone in out 
+$lang['Entered Zone'] = " Zona Introduzido ";
+$lang['In Zone Alert to User'] = "Na zona de alerta para usuário";
+$lang['Zone In Alert'] = "Zona Em Alerta";
+$lang['is now out of zone'] = "agora estÃ¡ fora da zona";
+$lang['Out of Zone alert to User'] = "Fora da Zona alerta para usuário";
+$lang['Zone Out Alert'] = "Zona Out Alerta";
+// landmark 
+$lang['is near landmark'] = "Está Próximo ao Ponto de Referencia";
+$lang['Near Landmark Alert'] = "Alerta de proximidade do Ponto de Referencia";
+$lang['RFID alert to Person'] = "Alerta RFID a Pessoa";
+//ignition alert 
+$lang['Vehicle'] = "veículo";
+$lang['Alert'] = "Alerta";
+$lang['Ignition On'] = "ignição em";
+$lang['Ignition Off'] = "ignição fora";
+$lang['in Area'] = "na Ã?rea";
+$lang['near Landmark'] = "perto de Referencia";
+$lang['Dear'] = "Caro";
+$lang['at'] = "em";
+// ignition on speed off
+$lang['stop more than'] = "O veiculo estar parado com ignição ligada por mais de";
+$lang['and ignition on'] = "e ignição em";
+$lang['Vehicle Stop And Ignition On Alert'] = "Alerta de veiculo parado e ignição ligada por tempo.";
+// ignition off speed on
+$lang['running more than'] = "o veiculo estar em movimento com ignição desligada a mais de";
+$lang['and ignition off'] = "e ignição fora";
+$lang['Vehicle Running And Ignition Off Alert'] = "Alerta de ignição desligada com veiculo em movimento ";
+// new vts alerts
+$lang['Vehicle SOS Alert'] = "veículo SOS Alerta";
+$lang['your vehicle'] = "seu veículo";
+$lang['for vehicle'] = "para veículos";
+$lang['just send SOS Alert at'] = "basta enviar SOS Alerta no"; 
+$lang['Vehicle Low Battery Alert'] = "Baixo Vehicle Alert Bateria"; 
+$lang['the voltage of your tracker device'] = "a tensÃ£o do seu dispositivo rastreador"; 
+$lang['is low at'] = "Ã© baixa em"; 
+$lang['Vehicle Door Open Alert'] = "veículo Porta Aberta Alerta"; 
+$lang['the door of your vehicle'] = "a porta do seu veículo"; 
+$lang['is open near'] = "Ã© aberto perto"; 
+$lang['Vehicle Power Off Alert'] = "Veículo Power Off Alerta"; 
+$lang['the power of your tracker device'] = "o poder do seu dispositivo rastreador"; 
+$lang['is cut off for vehicle'] = "Ã© cortado por veículo"; 
+// all status alert
+$lang['Displacement On Alarm'] = "Deslocamento em caso de alarme";
+$lang['Failure Main Battery Alarm'] = "Falha da Bateria Principal ";
+$lang['Alarm For Asset'] = "Alarme de SOS para o ativo ";
+$lang['Alarm For Asset1'] = "Alarme de Bateria do Ativo ";
+$lang['Alarm For Asset2'] = "Alarme para o ativo";
+$lang['Displacement Out Alarm'] = "Deslocamento Fora Alarme";
+$lang['Alarm ON'] = ": O Alarme de Pânico foi ativado ";
+$lang['Vehicle alarm with active SOS'] = "Alarme de veiculo com SOS ativo";
+$lang['Vehicle Failure Main Battery Alarm'] = "Alerta, Alarme de Falha da Bateria Principal ";
+// startStopTrip
+$lang['started trip'] = "Iniciado a Viagem";
+$lang['on time'] = "na hora";
+$lang['Trip Start Alert'] = "Alerta de Inicio de Viagem";
+$lang['Late'] = "tarde";
+$lang['has completed'] = "completou";
+$lang['Trip Complete at Last Location Alert'] = "viagem completa na última Alerta localização";
+$lang['Distance'] = "Distância";
+$lang['trip in'] = "Viagem em";
+$lang['Trip Alert'] = "Alerta de Viagem";
+//route break alert
+$lang['Route Break Alert'] = "Route Ruptura Alerta";
+$lang[' is not on route'] = " não está no percurso";
+$lang['Distance from original route is'] = "Distância do percurso original é";
+$lang['Device is away from route (Route Break)'] = "O dispositivo está longe de rota (Route Ruptura)";
+?>

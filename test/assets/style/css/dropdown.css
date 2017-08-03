@@ -1,0 +1,72 @@
+/* 
+Easy Drop Down for jQuery
+appgrinders.github.com/jquery-easy-drop-down 
+*/
+
+/* REQUIRED
+================================================== */
+
+.dropdown {
+    position: relative;
+	display:inline-block;
+}
+.dropdown-button {
+	display: block !important;
+	margin:0 !important;
+	cursor: pointer;	
+}
+.dropdown-panel {
+    position: absolute !important;
+    display: none;
+    width: 99%;
+    overflow: auto;
+    z-index: 10000;
+}
+
+/* BASIC STYLES
+================================================== */
+
+.dropdown-button {
+	background:#DDD;
+	padding:5px 10px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+a.dropdown-button,
+a.dropdown-button:visited {
+	color:inherit;
+}
+a.dropdown-button:hover {
+	text-decoration:none;
+}
+a.dropdown-button img.dropdown-icon {
+	float:right;
+	position:static;
+	margin:8px 0px 4px 10px;
+}
+.dropdown-panel {
+    max-height: 200px;
+	min-width:160px;/**/
+	border: 1px solid #C1C1C1;
+	background:white;
+	/*padding:10px;/**/
+
+	/* Border-box model so that padding doesn't affect dimensions. See http://css-tricks.com/box-sizing */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	moz-box-shadow: 0 0 13px rgba(0,0,0,0.31);
+	-webkit-box-shadow: 0 0 13px rgba(0,0,0,0.31);
+	box-shadow: 0 0 13px rgba(0,0,0,0.31);
+	
+	/*border-radius: 5px;/**/
+}
+
+
+

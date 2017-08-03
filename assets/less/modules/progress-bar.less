@@ -1,0 +1,34 @@
+/* 
+Template Name: DefOne - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.5
+Version: 1.4.0
+Author: DefThemes
+Website: http://www.defthemes.com/
+Contact: defthemes@gmail.com
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+*/
+
+// Progress Bars
+// ------------------------------------------
+
+.progress {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	
+	&.progress-bar-mini { height: 5px; }
+
+	.progress-bar {
+		background-color: #efefef;
+		border-left: 4px solid darken(#efefef, 20%);
+		border-bottom: none;
+
+		&.progress-bar-primary { background-color: @primaryBgColor; border-left: 4px solid darken(@primaryBgColor, 20%); }
+		&.progress-bar-info { background-color: @infoBgColor; border-left: 4px solid darken(@infoBgColor, 20%); }
+		&.progress-bar-success { background-color: @successBgColor; border-left: 4px solid darken(@successBgColor, 20%); }
+		&.progress-bar-warning { background-color: @warningBgColor; border-left: 4px solid darken(@warningBgColor, 20%); }
+		&.progress-bar-danger { background-color: @dangerBgColor; border-left: 4px solid darken(@dangerBgColor, 20%); }
+
+		
+	}
+}
+

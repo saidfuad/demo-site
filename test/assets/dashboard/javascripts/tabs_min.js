@@ -1,0 +1,1 @@
+(function(b){function d(){var a=window.location.hash,c=b('ul.tabs [href*="'+a+'"]'),a=b(a);c.length&&(!c.hasClass("active")&&a.length)&&(c.closest(".tabs").find(".active").removeClass("active"),c.addClass("active"),a.show().addClass("active").siblings().hide().removeClass("active"))}b(window).on("hashchange.skeleton",d);d();b(d)})(jQuery);

@@ -1,0 +1,19 @@
+@media only screen and max-width 2000px {
+.box{text-align:center;background-color:#FFF;-webkit-box-shadow:0 0 12px rgba(0,0,0,0.4);-moz-box-shadow:0 1px 6px rgba(23,69,88,.5);-webkit-border-radius:12px;-moz-border-radius:7px;border-radius:7px;background:0}
+#float-icons{top:200px!important}
+}
+@media only screen and min-width 768px and max-width 959px {
+address{color:#FFF;height:65px}
+.numPlate{margin-left:62px}
+#float-icons{top:100px!important}
+}
+@media only screen and max-width 767px {
+.pullbelow{margin-top:10px!important}
+.pagelink{width:20px;height:20px;border:solid 5px red;border-radius:22px 22px 22px 22px;-moz-border-radius:22px;-webkit-border-radius:22px 22px 22px 22px;background-color:red;vertical-align:middle;color:#FFF!important;text-decoration:none;display:inline;padding:3px!important}
+#float-icons{top:50px!important}
+#profile{margin-left:0;margin-top:100px}
+}
+@media only screen and min-width 480px and max-width 767px {
+#profile{margin-left:100px;margin-top:100px}
+#float-icons{top:50px!important}
+}

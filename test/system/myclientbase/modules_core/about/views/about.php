@@ -1,0 +1,1 @@
+<iframe src="http://www.google.com/intl/en_ALL/help/terms_maps.html" style='width:100%' height="100%"></iframe>

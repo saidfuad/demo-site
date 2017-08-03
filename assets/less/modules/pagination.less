@@ -1,0 +1,38 @@
+/* 
+Template Name: DefOne - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.5
+Version: 1.4.0
+Author: DefThemes
+Website: http://www.defthemes.com/
+Contact: defthemes@gmail.com
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+*/
+
+// Pagination
+// --------------------------------------------------
+.pagination, .pager {
+    .rounded(0px);
+
+    li a {
+        border: 1px solid #fff;
+        color: #666;
+        background-color: #efefef;
+        &:hover {
+            background-color: lighten(@navigationBgColor, 5%);
+            color: #fff;
+        }
+    }
+    li:first-child a, li:last-child a {
+        .rounded(0px);
+    }
+    li.active a {
+        font-weight: bold;
+        background-color: @navigationBgColor;
+        border: 1px solid @navigationBgColor;
+        border-top: 1px solid darken(@navigationBgColor, 10%);
+        color: #fff;
+        &:hover, &:focus {
+            background-color: @navigationBgColor;
+            border: 1px solid @navigationBgColor;
+        }
+    }
+}

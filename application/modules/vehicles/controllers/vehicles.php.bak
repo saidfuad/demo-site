@@ -1,0 +1,41 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Vehicles extends CI_Controller {
+
+	function __construct() {
+
+        parent::__construct();
+		
+        if ($this->session->userdata('itms_protocal') == "") {
+            redirect('login');
+        }
+		
+		if ($this->session->userdata('itms_protocal') == 71) {
+            redirect('admin');
+        }
+
+		if ($this->session->userdata('itms_user_id') != "") {
+           redirect(home);
+        }
+
+       
+    }
+
+	public function index() {
+        //$this->mdl_userprofile->get_user_menu_permissions();
+
+
+        $data['content_url'] = 'vehicles';
+        $data['fa'] = 'fa fa-car';
+        $data['title'] = 'ITMS Africa | Vehicles';
+        $data['content_title'] = 'Vehicles';
+        $data['content_subtitle'] = 'vehicles list, owners and status';
+        $data['content'] = 'vehicles/userprofile.php';
+		$this->load->view('main/main.php', $data);
+	}
+
+
+
+
+}

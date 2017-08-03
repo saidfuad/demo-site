@@ -1,0 +1,156 @@
+[11-Oct-2016 08:48:50] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:48:56] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:00] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:05] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:12] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:17] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:22] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:27] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:33] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:38] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:43] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:48] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:54] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:49:59] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:50:05] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:50:10] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:50:15] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:50:21] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:50:26] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:50:31] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:50:36] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:50:41] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:50:47] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:50:52] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:50:57] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:51:03] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:51:09] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:51:14] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:51:19] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:51:24] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:51:29] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:51:35] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:51:40] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:51:45] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:51:50] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:51:57] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:52:02] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:52:07] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:52:12] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:52:17] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:52:23] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:52:28] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:52:34] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:52:38] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:52:44] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:52:49] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:52:55] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:00] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:06] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:11] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:21] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:21] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:26] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:32] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:37] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:42] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:47] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:53] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:53:59] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:54:04] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:54:09] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:54:14] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:54:19] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:54:25] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:54:30] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:54:35] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:54:40] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:54:47] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:54:52] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:54:57] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:55:02] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:55:07] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:55:13] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:55:18] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:55:23] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:55:28] : Data Received, But No Assets Defined
+
+[11-Oct-2016 08:55:35] : Data Received, But No Assets Defined
+
+[11-Oct-2016 09:15:19] : Invalid String : '010000000001BP05161011V0402.9281S03942.3025E000.0200346000.0000000000L00000152010000000001BP05161011V0402.9281S03942.3025E000.0200351000.0000000000L00000152010000000001BP05161011V0402.9281S03942.3025E000.0200356000.0000000000L00000152010000000001BP05161011V0402.9281S03942.3025E000.0200401000.0000000000L00000152'
+

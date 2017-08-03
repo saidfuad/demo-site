@@ -1,0 +1,25 @@
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,form,label,img{margin:0;border:0;padding:0}
+#container{padding:1em;min-width:800px;font-size:92.8%}
+input,select{font-family:arial,verdana,sans-serif}
+a{color:#005c9c;outline:none;text-decoration:none}
+a:hover{text-decoration:underline}
+table{border-collapse:collapse}
+th.text a,td.text a{margin-left:1px}
+.beta_label{color:red;font-weight:normal;text-decoration:none}.beta_label.selected{color:#fff}
+b.beta_label{vertical-align:25%}.beta_label.small{font-size:7pt;line-height:100%}#header{float:left;margin:0 0 0.2em 0;width:100%}
+div.rounded_outer{border-width:1px 0;border-style:solid}
+div.rounded_inner{border-width:0 1px;border-style:solid;margin:0 -1px}
+#logo{float:left;display:inline;margin:-3px -5px -2px 0px;_margin:0 0 0 10px;}
+.login #logo{padding-top:10px}
+.db_maint_page #logo{margin-left:0;padding-right:10px}
+#logo a{display:block;background:no-repeat url(sprites.gif) -543px -215px;height:40px;width:207px}
+#global_header_nav{margin:0 0 12px 0;padding:0;list-style:none;float:right}
+#global_header_nav li{display:inline;margin:0 3px;padding:0 2px 0 1px;border:#666 solid;border-width:0 1px 0 0;list-style:none}#global_header_nav li a{margin:0 1px 0 0}
+#global_header_nav li.last{border:0;margin:0}
+#subheader{float:left;width:100%;clear:both;margin:0 0 0;padding:0;background:#6B6B6B;height:25px;display:table;}
+#subheader #tlcorner{background:transparent url(images/corner_small_generic_tl.gif) top left no-repeat;height:25px;width:100%}#subheader #trcorner{background:transparent url(images/corner_small_generic_tr.gif) top right no-repeat;height:25px;width:100%}#subheader #blcorner{background:transparent url(images/corner_small_generic_bl.gif) bottom left no-repeat;height:25px;width:100%}#subheader #brcorner{background:transparent url(images/corner_small_generic_br.gif) bottom right no-repeat;height:25px;width:100%}#header_divider{float:left;width:100%;clear:both;margin:2px 0 0;height:3px;background:#ff6d06}
+#account_profile_nav{float:left;width:100%;text-align:right;font-weight:bold;font-size:97%;color:#fff; margin-top:3px;}
+#account_profile_nav p{float:left;padding:.2em .0em;white-space:nowrap;width:auto}
+#account_profile_nav p#account_nav{float:right;text-align:right;padding-right:0.5em}
+#account_profile_nav a{color:#fff;border-right:1px solid #fff;padding:0 1em 0 0}
+#profile_nav label{margin:0 0 0 .5em}

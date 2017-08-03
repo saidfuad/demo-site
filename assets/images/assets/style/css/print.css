@@ -1,0 +1,8 @@
+#ui-layout-west {
+	display:none;
+}
+
+/* Remove The Addon Buttons from the Print. */
+.addons {
+	display: none;
+}

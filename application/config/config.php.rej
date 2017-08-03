@@ -1,0 +1,10 @@
+diff a/application/config/config.php b/application/config/config.php	(rejected hunks)
+@@ -314,7 +314,7 @@
+ | http://codeigniter.com/user_guide/libraries/encryption.html
+ |
+ */
+-$config['encryption_key'] = '';
++$config['encryption_key'] = 'itms';
+ 
+ /*
+ |--------------------------------------------------------------------------

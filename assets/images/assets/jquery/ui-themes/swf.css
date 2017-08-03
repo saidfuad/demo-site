@@ -1,0 +1,42 @@
+#swfupload-control p{ margin:10px 5px; font-size:0.9em; }
+#Passport { margin:0; padding:0; width:auto;}
+#Passport li { list-style-position:inside; margin:2px; border:1px solid #ccc; padding:10px; font-size:12px; 
+	font-family:Arial, Helvetica, sans-serif; color:#333; background:#fff; position:relative;}
+#Passport li .progressbar{ border:1px solid #333; height:5px; background:#fff; }
+#Passport li .progress{ background:#999; width:0%; height:5px; }
+#Passport li p{ margin:0; line-height:18px; }
+#Passport li.success{ border:1px solid #339933; background:#ccf9b9; }
+#Passport li span.cancel{ position:absolute; top:5px; right:5px; width:20px; height:20px; 
+	background:url('../js_lib/swfupload/cancel.png') no-repeat; cursor:pointer; }
+#swfupload-control_sensor p{ margin:10px 5px; font-size:0.9em; }
+#Passport_sensor{ margin:0; padding:0; width:160px;}
+#Passport_sensor li{ list-style-position:inside; margin:2px; border:1px solid #ccc; padding:10px; font-size:12px; 
+	font-family:Arial, Helvetica, sans-serif; color:#333; background:#fff; position:relative;}
+#Passport_sensor li .progressbar{ border:1px solid #333; height:5px; background:#fff; }
+#Passport_sensor li .progress{ background:#999; width:0%; height:5px; }
+#Passport_sensor li p{ margin:0; line-height:18px; }
+#Passport_sensor li.success{ border:1px solid #339933; background:#ccf9b9; }
+#Passport_sensor li span.cancel{ position:absolute; top:5px; right:5px; width:20px; height:20px; 
+	background:url('../js_lib/swfupload/cancel.png') no-repeat; cursor:pointer; }
+	
+	
+#finger-control p{ margin:10px 5px; font-size:0.9em; }
+#finger { margin:0; padding:0; width:auto;}
+#finger li { list-style-position:inside; margin:2px; border:1px solid #ccc; padding:10px; font-size:12px; 
+	font-family:Arial, Helvetica, sans-serif; color:#333; background:#fff; position:relative;}
+#finger li .progressbar{ border:1px solid #333; height:5px; background:#fff; }
+#finger li .progress{ background:#999; width:0%; height:5px; }
+#finger li p{ margin:0; line-height:18px; }
+#finger li.success{ border:1px solid #339933; background:#ccf9b9; }
+#finger li span.cancel{ position:absolute; top:5px; right:5px; width:20px; height:20px; 
+	background:url('../js_lib/swfupload/cancel.png') no-repeat; cursor:pointer; }
+#finger-control_sensor p{ margin:10px 5px; font-size:0.9em; }
+#finger_sensor{ margin:0; padding:0; width:160px;}
+#finger_sensor li{ list-style-position:inside; margin:2px; border:1px solid #ccc; padding:10px; font-size:12px; 
+	font-family:Arial, Helvetica, sans-serif; color:#333; background:#fff; position:relative;}
+#finger_sensor li .progressbar{ border:1px solid #333; height:5px; background:#fff; }
+#finger_sensor li .progress{ background:#999; width:0%; height:5px; }
+#finger_sensor li p{ margin:0; line-height:18px; }
+#finger_sensor li.success{ border:1px solid #339933; background:#ccf9b9; }
+#finger_sensor li span.cancel{ position:absolute; top:5px; right:5px; width:20px; height:20px; 
+	background:url('../js_lib/swfupload/cancel.png') no-repeat; cursor:pointer; }	

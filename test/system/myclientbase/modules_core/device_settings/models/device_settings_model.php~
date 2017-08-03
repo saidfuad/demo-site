@@ -1,0 +1,72 @@
+<?php 
+class Device_Settings_model extends Model 
+{
+	/**
+	* Instanciar o CI
+	*/
+	public function device_settings_model()
+    {
+        parent::Model();
+		$this->CI =& get_instance();
+		$this->load->database();
+		$this->load->library('session');
+		$this->am = "assests_master";
+    }
+	
+	public function fetch_devices($class){
+		
+		$this->db->select('device_id, assets_name');
+		$this->db->where("assets_class = '".$class."'");
+		$this->db->where('status',1);
+		$this->db->where('del_date',null);
+		
+		$this->order_by = 'id';
+		$query = $this->db->get($this->am);
+		return $query->result();
+		
+	}
+	
+	public function fetch_device_class(){
+		
+		$sql = "SELECT id, assets_class_name from assests_class_master WHERE del_date is null AND status=1";
+		$res = $this->db->query($sql);
+		
+		return $res->result();
+		
+	}
+	
+	public function fetch_device_commands($class){
+		
+		$sql = "SELECT id, command, comments from assests_command_master WHERE assets_class_id = '$class' AND del_date is null AND status=1";
+		$res = $this->db->query($sql);
+		
+		return $res->result();
+		
+	}
+
+	public function save($db_array){
+		$success = TRUE;
+		
+		$devices = $db_array['device_ids'];
+		$command = $db_array['command'];
+		$data = array();
+		$string = '';
+		
+		foreach($devices as $device) {
+			// write into the file.
+			$string .=  "send $device $command\n";
+		}
+		
+		$file_path = '../telnet/cmd.txt';
+		
+		if ( ! write_file($file_path, $string)) {
+			 $reply = "Failed to Post Command to Device(s)";
+		}
+		else{
+			 $reply = "Command Posted to Device(s)";
+		}
+		
+		return $reply;
+	}
+} 
+?>

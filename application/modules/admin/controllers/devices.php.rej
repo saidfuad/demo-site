@@ -1,0 +1,10 @@
+diff a/application/modules/admin/controllers/devices.php b/application/modules/admin/controllers/devices.php	(rejected hunks)
+@@ -112,7 +112,7 @@
+         $data['title'] = 'HAWK | MPESA Transactions';
+         $data['content_title'] = 'MPESA Transactions';
+         $data['content_subtitle'] = 'MPESA Transactions';
+-        $data['content'] = 'admin/devices/mpesa.php';
++         $data['content'] = 'devices/mpesa.php';
+         $this->load->view('admin/main.php', $data);
+     }
+ 
